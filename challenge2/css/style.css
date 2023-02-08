@@ -7,7 +7,7 @@ body {
     background-color: lightblue;
 }
 a {
-    color:black;
+    color: white;
 }
 .header {
     padding: 20px;
@@ -24,10 +24,22 @@ a {
     margin-right: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    float: right;
+    color: white;
 }
 .header nav ul {
     list-style-type: none;
+    
 }
 .header nav ul li {
+    flex-wrap: wrap;
     display: inline-block;
+    color: white;
 }
+.heroimg {
+height: 100%;
+width: 100%;
+}
+/* #h2{
+    
+} */
